@@ -1,0 +1,95 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Lee Taejun"
+theme = "personal-web"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "이태준"
+  sub = "저는 4년 6개월 경력의 IT 엔지니어입니다."
+
+[params.main]
+  latestPublishHeader = "최근 프로젝트"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio']
+
+[params.notFound]
+  gopher = "/images/gopher.png"
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = '/images/safar-safarov-koOdUvfGr4c-unsplash.jpg'
+  gradientOverlay = ''
+  logo = "/images/taejun.jpg"
+
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  github = "https://github.com/"
+  twitter = false
+  linkedin = "https://www.linkedin.com/in/"
+  medium = false
+  codepen = false
+  facebook = false
+  youtube = false
+  instagram = false
+  gitlab = false
+  keybase = false
+
+[params.contact]
+  email = ""
+  text= ""
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false

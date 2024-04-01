@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techs on Lee Taejun</title>
+    <link>http://localhost:1313/techs/</link>
+    <description>Recent content in Techs on Lee Taejun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Apr 2024 09:49:32 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/techs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/techs/docker/</link>
+      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
+      <guid>http://localhost:1313/techs/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ionic</title>
+      <link>http://localhost:1313/techs/ionic/</link>
+      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
+      <guid>http://localhost:1313/techs/ionic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NestJS</title>
+      <link>http://localhost:1313/techs/nestjs/</link>
+      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
+      <guid>http://localhost:1313/techs/nestjs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PrismaORM</title>
+      <link>http://localhost:1313/techs/prismaorm/</link>
+      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
+      <guid>http://localhost:1313/techs/prismaorm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript</title>
+      <link>http://localhost:1313/techs/typescript/</link>
+      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
+      <guid>http://localhost:1313/techs/typescript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/techs/python/</link>
+      <pubDate>Fri, 29 Mar 2024 14:00:25 +0900</pubDate>
+      <guid>http://localhost:1313/techs/python/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
