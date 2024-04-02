@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang='en'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title> - Lee Taejun</title>
+  <title>사내 비용 관리 프로그램 - Lee Taejun</title>
   <link rel='canonical' href='http://localhost:1313/portfolio/expense/' />
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
-  <meta name='description' content='' />
+  <meta name='description' content='사내에서 사용되는 비용 관리 프로그램입니다.' />
   <meta name='theme-color' content='#FD3519' />
   
 
@@ -19,17 +19,17 @@
 <link rel="stylesheet" href="http://localhost:1313/sass/style.min.eabe1aa4bd266a15f7b39b122bd6a5cc75cb067e5373631ac21d7815d6240d6f.css" integrity="sha256-6r4apL0mahX3s5sSK9alzHXLBn5Tc2Mawh14FdYkDW8=" media="screen">
 <link rel="stylesheet" href="http://localhost:1313/syntax.min.css" integrity="" media="screen">
 
-  <meta property="og:title" content="" />
+  <meta property="og:title" content="사내 비용 관리 프로그램" />
 <meta property="og:description" content="사내에서 사용되는 비용 관리 프로그램입니다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/portfolio/expense/" /><meta property="article:section" content="portfolio" />
 <meta property="article:published_time" content="2024-04-01T09:49:32+09:00" />
 <meta property="article:modified_time" content="2024-04-01T09:49:32+09:00" />
 
-  <meta itemprop="name" content="">
+  <meta itemprop="name" content="사내 비용 관리 프로그램">
 <meta itemprop="description" content="사내에서 사용되는 비용 관리 프로그램입니다."><meta itemprop="datePublished" content="2024-04-01T09:49:32+09:00" />
 <meta itemprop="dateModified" content="2024-04-01T09:49:32+09:00" />
-<meta itemprop="wordCount" content="5">
+<meta itemprop="wordCount" content="142">
 <meta itemprop="keywords" content="" />
 </head>
 <body>
@@ -40,7 +40,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='http://localhost:1313/images/taejun.jpg' alt="Profile HOME" class="rounded-logo">
+        <img src='http://localhost:1313/images/taejun.jpg' alt="Profile 404 Page not found" class="rounded-logo">
       </a>
     </div>
     <h2>이태준</h2>
@@ -121,7 +121,7 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='http://localhost:1313/images/taejun.jpg' alt="Profile HOME" class="rounded-logo">
+          <img src='http://localhost:1313/images/taejun.jpg' alt="Profile 404 Page not found" class="rounded-logo">
         </a>
       </div>
       <h2>이태준</h2>
@@ -211,7 +211,7 @@
 
 
 <span  class="active">
-  <a href="http://localhost:1313/portfolio/expense/"></a>
+  <a href="http://localhost:1313/portfolio/expense/">사내 비용 관리 프로그램</a>
   
 </span>
 
@@ -220,7 +220,7 @@
     
     <main id="content" class="portfolio">
 
-<h1></h1>
+<h1>사내 비용 관리 프로그램</h1>
 <div class="tags">
   
 
@@ -250,6 +250,9 @@
       <span>- </span>
           <a href="http://localhost:1313/techs/docker/">Docker</a>
         
+      <span>- </span>
+          <a href="http://localhost:1313/techs/postgresql/">PostgreSQL</a>
+        
       
     </span>
   </div>
@@ -270,9 +273,53 @@
 </div>
 </div>
 
-<img title="" alt="" src="/portfolio/expense/expenses.png" />
+<img title="사내 비용 관리 프로그램" alt="사내 비용 관리 프로그램" src="/portfolio/expense/expenses.png" />
 
 <p>사내에서 사용되는 비용 관리 프로그램입니다.</p>
+<p>프로젝트 규모는 2명으로 제가 맡은 업무는 프론트엔드, 백엔드 개발이었습니다.</p>
+<h2 id="애플리케이션">애플리케이션</h2>
+<p>사용자는 비용 관리자, 사원의 두 종류의 Role이 있습니다.</p>
+<ul>
+<li>
+<p>사원</p>
+<ul>
+<li>출장비, 회의비 등 회사에 청구하는 비용을 등록</li>
+<li>월말에 작성 한 비용을 종합하여 리포트를 제출</li>
+</ul>
+</li>
+<li>
+<p>비용 관리자</p>
+<ul>
+<li>제출 된 리포트를 결재</li>
+<li>리포트 검토 및 재작성 요청</li>
+<li>비용 정보를 일본의 회계 관리 프로그램인 Yayoi에 임포트 할 수 있도록 CSV화</li>
+</ul>
+</li>
+</ul>
+<h2 id="사용-기술">사용 기술</h2>
+<p>프론트엔드는 <strong>TypeScript</strong>로 작성하였으며 <strong>Ionic</strong> 프레임워크를 사용하였습니다.</p>
+<p>백엔드도 <strong>TypeScript</strong>로 작성하였으며 <strong>NestJS</strong> 프레임워크를 사용한 Restful API로 개발하였습니다. DBMS는 PostgreSQL을 사용했으며 DB 접속 및 TypeScript의 객체와 매핑을 위해 <strong>PrismaORM</strong>이 사용되었습니다.</p>
+<p>개발 된 애플리케이션은 <strong>Docker</strong> 컨테이너화 하여 서비스 했었고 <strong>AWS EKS</strong>로 이전하였습니다.</p>
+<h2 id="업적">업적</h2>
+<p>기존 Excel로 작성하여 메일로 송부하는 비용 청구 방식에서 웹 애플리케이션화 하여 문서 작성 시간을 단축 시켰으며 비용 관리자 측에서도 제출 받은 비용 정보를 회계 관리 프로그램에 자동으로 임포트 하는 기능으로 작업 시간을 단축 시켰습니다.</p>
+<figure><img src="/portfolio/expense/login.png"
+    alt="로그인 화면"><figcaption>
+      <p>로그인 화면</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/portfolio/expense/expenses.png"
+    alt="비용 화면"><figcaption>
+      <p>비용 화면</p>
+    </figcaption>
+</figure>
+
+<figure><img src="/portfolio/expense/reports.png"
+    alt="리포트 화면"><figcaption>
+      <p>리포트 화면</p>
+    </figcaption>
+</figure>
+
 
 
 

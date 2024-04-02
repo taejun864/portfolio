@@ -6,14 +6,28 @@
     <description>Recent content in TypeScript on Lee Taejun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 09:49:32 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 20:02:28 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/techs/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>SKPACK 홈페이지</title>
+      <link>http://localhost:1313/portfolio/skpack/</link>
+      <pubDate>Tue, 02 Apr 2024 20:02:28 +0900</pubDate>
+      <guid>http://localhost:1313/portfolio/skpack/</guid>
+      <description>SKPACK의 홈페이지입니다.&#xA;프로젝트 규모는 3인으로 저는 프론트엔드, 백엔드 개발을 담당했습니다.</description>
+    </item>
+    <item>
+      <title>Plura 홈페이지</title>
+      <link>http://localhost:1313/portfolio/plura/</link>
+      <pubDate>Mon, 01 Apr 2024 15:44:56 +0900</pubDate>
+      <guid>http://localhost:1313/portfolio/plura/</guid>
+      <description>Plura 제품의 일본 랜딩페이지입니다.&#xA;프로젝트 규모는 2인이며 저는 프론트엔드, 백엔드 개발을 담당하였습니다.&#xA;애플리케이션 프론트엔드는 TypeScript로 작성 되었으며 Angular 프레임워크가 사용되었습니다.&#xA;백엔드는 TypeScript로 작성 되었으며 NestJS 프레임워크가 사용되었으며 고객 문의 메일 송부, 문의 정보 저장 기능을 수행합니다.&#xA;DBMS는 SQLite3를 사용했습니다.</description>
+    </item>
+    <item>
+      <title>사내 비용 관리 프로그램</title>
       <link>http://localhost:1313/portfolio/expense/</link>
       <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
       <guid>http://localhost:1313/portfolio/expense/</guid>
-      <description>사내에서 사용되는 비용 관리 프로그램입니다.</description>
+      <description>사내에서 사용되는 비용 관리 프로그램입니다.&#xA;프로젝트 규모는 2명으로 제가 맡은 업무는 프론트엔드, 백엔드 개발이었습니다.&#xA;애플리케이션 사용자는 비용 관리자, 사원의 두 종류의 Role이 있습니다.&#xA;사원&#xA;출장비, 회의비 등 회사에 청구하는 비용을 등록 월말에 작성 한 비용을 종합하여 리포트를 제출 비용 관리자&#xA;제출 된 리포트를 결재 리포트 검토 및 재작성 요청 비용 정보를 일본의 회계 관리 프로그램인 Yayoi에 임포트 할 수 있도록 CSV화 사용 기술 프론트엔드는 TypeScript로 작성하였으며 Ionic 프레임워크를 사용하였습니다.&#xA;백엔드도 TypeScript로 작성하였으며 NestJS 프레임워크를 사용한 Restful API로 개발하였습니다.</description>
     </item>
   </channel>
 </rss>
