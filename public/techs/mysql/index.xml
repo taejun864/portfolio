@@ -6,14 +6,21 @@
     <description>Recent content in MySQL on Lee Taejun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 20:02:28 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 08:50:34 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/techs/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>사내 CRM</title>
+      <link>http://localhost:1313/portfolio/crm/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <guid>http://localhost:1313/portfolio/crm/</guid>
+      <description>사내에서 사용하는 CRM 웹 애플리케이션입니다.</description>
+    </item>
     <item>
       <title>SKPACK 홈페이지</title>
       <link>http://localhost:1313/portfolio/skpack/</link>
       <pubDate>Tue, 02 Apr 2024 20:02:28 +0900</pubDate>
       <guid>http://localhost:1313/portfolio/skpack/</guid>
-      <description>SKPACK의 홈페이지입니다.&#xA;프로젝트 규모는 3인으로 저는 프론트엔드, 백엔드 개발을 담당했습니다.</description>
+      <description>SKPACK의 홈페이지입니다.&#xA;프로젝트 규모는 3인으로 저는 프론트엔드, 백엔드 개발을 담당했습니다.&#xA;이전 프로젝트까지 설계, 코드 리뷰를 담당해 주신 PM과 코드 작성을 주로 한 저 2명의 팀에 디자이너가 합류 해 처음으로 3인으로 진행한 프로젝트입니다.&#xA;애플리케이션 일반 사용자가 보는 홈페이지 화면과 관리자가 홈페이지의 내용을 관리(내용 추가, 수정, 삭제) 할 수 있는 어드민 페이지로 이루어져 있습니다. 어드민 페이지에는 ngx-admin 템플릿이 사용 되었습니다.&#xA;사용 기술 프론트엔드는 TypeScript로 작성되었으며, Angular 프레임워크가 사용 되었습니다.&#xA;백엔드는 TypeScript로 작성되었으며, NestJS 프레임워크를 사용 한 RestfulAPI로 개발되었습니다.</description>
     </item>
   </channel>
 </rss>

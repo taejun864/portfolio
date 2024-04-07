@@ -6,20 +6,55 @@
     <description>Recent content in Techs on Lee Taejun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 20:02:28 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 08:50:34 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/techs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular</title>
       <link>http://localhost:1313/techs/angular/</link>
-      <pubDate>Tue, 02 Apr 2024 20:02:28 +0900</pubDate>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
       <guid>http://localhost:1313/techs/angular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fiber</title>
+      <link>http://localhost:1313/techs/fiber/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <guid>http://localhost:1313/techs/fiber/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1313/techs/go/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <guid>http://localhost:1313/techs/go/</guid>
       <description></description>
     </item>
     <item>
       <title>MySQL</title>
       <link>http://localhost:1313/techs/mysql/</link>
-      <pubDate>Tue, 02 Apr 2024 20:02:28 +0900</pubDate>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
       <guid>http://localhost:1313/techs/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PostgreSQL</title>
+      <link>http://localhost:1313/techs/postgresql/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <guid>http://localhost:1313/techs/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PrismaORM</title>
+      <link>http://localhost:1313/techs/prismaorm/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <guid>http://localhost:1313/techs/prismaorm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript</title>
+      <link>http://localhost:1313/techs/typescript/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <guid>http://localhost:1313/techs/typescript/</guid>
       <description></description>
     </item>
     <item>
@@ -37,10 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>TypeScript</title>
-      <link>http://localhost:1313/techs/typescript/</link>
-      <pubDate>Tue, 02 Apr 2024 20:02:28 +0900</pubDate>
-      <guid>http://localhost:1313/techs/typescript/</guid>
+      <title>Docker</title>
+      <link>http://localhost:1313/techs/docker/</link>
+      <pubDate>Mon, 01 Apr 2024 15:44:56 +0900</pubDate>
+      <guid>http://localhost:1313/techs/docker/</guid>
       <description></description>
     </item>
     <item>
@@ -51,31 +86,10 @@
       <description></description>
     </item>
     <item>
-      <title>Docker</title>
-      <link>http://localhost:1313/techs/docker/</link>
-      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
-      <guid>http://localhost:1313/techs/docker/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ionic</title>
       <link>http://localhost:1313/techs/ionic/</link>
       <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
       <guid>http://localhost:1313/techs/ionic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PostgreSQL</title>
-      <link>http://localhost:1313/techs/postgresql/</link>
-      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
-      <guid>http://localhost:1313/techs/postgresql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PrismaORM</title>
-      <link>http://localhost:1313/techs/prismaorm/</link>
-      <pubDate>Mon, 01 Apr 2024 09:49:32 +0900</pubDate>
-      <guid>http://localhost:1313/techs/prismaorm/</guid>
       <description></description>
     </item>
     <item>

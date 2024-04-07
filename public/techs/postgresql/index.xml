@@ -6,8 +6,15 @@
     <description>Recent content in PostgreSQL on Lee Taejun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 09:49:32 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 08:50:34 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/techs/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>사내 CRM</title>
+      <link>http://localhost:1313/portfolio/crm/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <guid>http://localhost:1313/portfolio/crm/</guid>
+      <description>사내에서 사용하는 CRM 웹 애플리케이션입니다.</description>
+    </item>
     <item>
       <title>사내 비용 관리 프로그램</title>
       <link>http://localhost:1313/portfolio/expense/</link>
