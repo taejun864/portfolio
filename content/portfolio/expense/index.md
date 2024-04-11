@@ -5,7 +5,7 @@ date: "2024-04-02"
 jobDate: 2022/07 - 2022/12
 work: [web application]
 techs: [TypeScript, Ionic, NestJS, PrismaORM, Docker, PostgreSQL]
-thumbnail: expense/expenses.png
+thumbnail: portfolio/expense/expenses.png
 ---
 
 사내에서 사용되는 비용 관리 프로그램입니다.

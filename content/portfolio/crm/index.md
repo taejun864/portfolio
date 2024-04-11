@@ -6,7 +6,7 @@ jobDate: 2021/11 - 2022/03, 2023/08 - 2024/01
 work: [web application]
 techs: [TypeScript, Go, Angular, Fiber, MySQL, PostgreSQL, GORM]
 designs: []
-thumbnail: crm/dashboard.png
+thumbnail: portfolio/crm/dashboard.png
 ---
 
 사내에서 사용하는 CRM 웹 애플리케이션입니다.

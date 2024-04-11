@@ -28,7 +28,7 @@ pygmentsCodeFences=true
   mainSections = ['portfolio']
 
 [params.notFound]
-  gopher = "/images/gopher.png"
+  gopher = "/portfolio/images/gopher.png"
   h1 = 'Bummer!'
   p = "It seems that this page doesn't exist."
 
@@ -37,9 +37,9 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '/images/safar-safarov-koOdUvfGr4c-unsplash.jpg'
+  backgroundImage = '/portfolio/images/safar-safarov-koOdUvfGr4c-unsplash.jpg'
   gradientOverlay = ''
-  logo = "/images/taejun.jpg"
+  logo = "/portfolio/images/taejun.jpg"
 
 [params.assets]
   favicon = ""

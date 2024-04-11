@@ -6,7 +6,7 @@ jobDate: 2023/01 - 2023/07
 work: [Web Application]
 techs: [TypeScript, Angular, NestJS, TypeORM, MySQL]
 designs: []
-thumbnail: skpack/main.png
+thumbnail: portfolio/skpack/main.png
 projectUrl: https://skpack.co.kr
 ---
 

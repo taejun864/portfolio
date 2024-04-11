@@ -6,7 +6,7 @@ jobDate: 2022/04 - 2022/06
 work: [web application]
 techs: [TypeScript, Angular, NestJS, SQLite3, Docker]
 designs: []
-thumbnail: plura/main.png
+thumbnail: portfolio/plura/main.png
 projectUrl: https://plura.namutech.co.jp
 ---
 

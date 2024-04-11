@@ -6,7 +6,7 @@ jobDate: 2021
 work: [desktop application]
 techs: [python]
 designs: []
-thumbnail: daily-check/daily-check.png
+thumbnail: portfolio/daily-check/daily-check.png
 ---
 
 서버 장비의 로그 분석을 위한 애플리케이션입니다.
