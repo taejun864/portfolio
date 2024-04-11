@@ -6,4 +6,4 @@ title: HOME
 
 웹 개발 기술 (**HTML**, **CSS**, **TypeScript**, **Angular**, **Python**, **Django** 등) 및 서버 장비에 대한 지식을 갖추고 있으며, 문제 해결 능력, 팀워크 능력, 꼼꼼함이 장점입니다.
 
-[소개 페이지](/about "About")
+[소개 페이지](/portfolio/about "About")
