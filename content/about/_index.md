@@ -1,7 +1,7 @@
 +++
 title = 'About'
 date = 2024-03-31
-draft = true
+draft = false
 +++
 
 저는 웹 개발(2년 6개월), 네트워크 장비 보수(2년) 경력을 가진 IT 엔지니어입니다. 
