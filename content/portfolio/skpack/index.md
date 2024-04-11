@@ -1,13 +1,13 @@
 ---
 title: SKPACK 홈페이지
 description: SKPACK 홈페이지입니다.
-date: "2024-04-02T20:02:28+09:00"
+date: "2024-04-04"
 jobDate: 2023/01 - 2023/07
 work: [Web Application]
 techs: [TypeScript, Angular, NestJS, TypeORM, MySQL]
 designs: []
 thumbnail: skpack/main.png
-projectUrl: https://skpack.co.jp
+projectUrl: https://skpack.co.kr
 ---
 
 SKPACK의 홈페이지입니다.
@@ -29,3 +29,21 @@ SKPACK의 홈페이지입니다.
 **MySQL** DBMS에 접속 및 TypeScript 객체와 매핑을 위해 **TypeORM**을 사용하였습니다.
 
 개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
+
+### 홈페이지 화면
+
+{{<figure src="main2.png" caption="메인 화면 중 일부">}}
+
+{{<figure src="products.png" caption="제품 소개 화면">}}
+
+{{<figure src="media.png" caption="제품 동영상 화면">}}
+
+{{<figure src="notice.png" caption="공지사항 화면">}}
+
+### 어드민 화면
+
+{{<figure src="admin_login.png" caption="로그인 화면">}}
+
+{{<figure src="admin_nav.png" caption="메뉴 화면">}}
+
+{{<figure src="admin_product.png" caption="제품 화면">}}

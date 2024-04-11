@@ -1,7 +1,7 @@
 ---
 title: Plura 홈페이지
 description: Plura 제품의 일본 랜딩페이지입니다.
-date: "2024-04-01T15:44:56+09:00"
+date: "2024-04-03"
 jobDate: 2022/04 - 2022/06
 work: [web application]
 techs: [TypeScript, Angular, NestJS, SQLite3, Docker]
@@ -23,3 +23,7 @@ Plura 제품의 일본 랜딩페이지입니다.
 DBMS는 **SQLite3**를 사용했습니다.
 
 개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
+
+{{<figure src="main2.png" caption="메인 화면의 일부">}}
+
+{{<figure src="mail_form.png" caption="문의 메일 폼">}}

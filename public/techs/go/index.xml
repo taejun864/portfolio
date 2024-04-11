@@ -6,14 +6,14 @@
     <description>Recent content in Go on Lee Taejun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Apr 2024 08:50:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techs/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>사내 CRM</title>
       <link>http://localhost:1313/portfolio/crm/</link>
-      <pubDate>Wed, 03 Apr 2024 08:50:34 +0900</pubDate>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/crm/</guid>
-      <description>사내에서 사용하는 CRM 웹 애플리케이션입니다.</description>
+      <description>사내에서 사용하는 CRM 웹 애플리케이션입니다.&#xA;2022/03 개발을 완료하여 사용 하던 중 사용자의 의견을 받아 2023/08 부터 대규모로 수정을 진행 한 프로젝트입니다.&#xA;2021 프로젝트 프로젝트 규모는 2명으로 저는 프론트엔드, 백엔드 개발을 담당하였습니다.&#xA;애플리케이션 사용자(영업사원)가 안건 정보 및 안건에 관한 영업 문서를 등록, 관리하며 년, 월 매출 정보를 차트로 시각화 하는 것이 주 기능입니다.&#xA;사용 기술 프론트엔드는 TypeScript로 작성하였으며, Angular 프레임워크를 사용하였습니다.&#xA;백엔드는 Go로 작성하였으며, Fiber 프레임워크를 사용 한 Restful API로 개발되었습니다. MySQL DBMS와 Go 객체의 매핑을 위해 GORM이 사용되었습니다.</description>
     </item>
   </channel>
 </rss>

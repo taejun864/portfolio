@@ -1,7 +1,7 @@
 ---
 title: 사내 비용 관리 프로그램
 description: 사내에서 사용되는 비용 관리 프로그램입니다.
-date: "2024-04-01T09:49:32+09:00"
+date: "2024-04-02"
 jobDate: 2022/07 - 2022/12
 work: [web application]
 techs: [TypeScript, Ionic, NestJS, PrismaORM, Docker, PostgreSQL]
@@ -33,7 +33,7 @@ thumbnail: expense/expenses.png
 개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
 
 ## 업적
-기존 Excel로 작성하여 메일로 송부하는 비용 청구 방식에서 웹 애플리케이션화 하여 문서 작성 시간을 단축 시켰으며 비용 관리자 측에서도 제출 받은 비용 정보를 회계 관리 프로그램에 자동으로 임포트 하는 기능으로 작업 시간을 단축 시켰습니다.
+기존 Excel로 작성하여 메일로 송부하는 비용 청구 방식에서 웹 애플리케이션화 하여 문서 작성 시간을 단축 시켰으며 비용 관리자 측에서도 제출 받은 비용 정보를 회계 관리 프로그램에 임포트 할 수 있도록 csv 파일화 기능을 제공하여 작업 시간을 단축 시켰습니다.
 
 
 {{<figure src="login.png" caption="로그인 화면">}}
