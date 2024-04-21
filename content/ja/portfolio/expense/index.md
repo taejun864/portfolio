@@ -1,6 +1,6 @@
 ---
-title: 사내 비용 관리 프로그램
-description: 사내에서 사용되는 비용 관리 프로그램입니다.
+title: 社内費用管理プログラム
+description: 社内で使用する費用管理プログラムです。
 date: "2024-04-02"
 jobDate: 2022/07 - 2022/12
 work: [web application]
@@ -8,36 +8,36 @@ techs: [TypeScript, Ionic, NestJS, PrismaORM, Docker, PostgreSQL]
 thumbnail: images/expense/expenses.png
 ---
 
-사내에서 사용되는 비용 관리 프로그램입니다.
+社内で使用する費用管理プログラムです。
 
-프로젝트 규모는 2명으로 제가 맡은 업무는 프론트엔드, 백엔드 개발이었습니다.
+プロジェクト人員構成は二人で、私はフロントエンド、バッグエンド開発を担当しました。
 
-## 애플리케이션
-사용자는 비용 관리자, 사원의 두 종류의 Role이 있습니다.
-  - 사원
+## アプリケーション
+使用者は費用管理者、社員の二種類のROLEがあります。
+  - 社員
 
-    - 출장비, 회의비 등 회사에 청구하는 비용을 등록
-    - 월말에 작성 한 비용을 종합하여 리포트를 제출
+    - 出張費、会議費など会社に請求する費用を登録
+    - 月末に作成した費用をまとめてリポートを提出
 
-  - 비용 관리자
+  - 費用管理者
 
-    - 제출 된 리포트를 결재
-    - 리포트 검토 및 재작성 요청
-    - 비용 정보를 일본의 회계 관리 프로그램인 Yayoi에 임포트 할 수 있도록 CSV화
+    - 提出されたリポートを決裁
+    - リポート検討および再作成要請
+    - 費用情報を会計ソフトの弥生会計にインポートできるようにCSV化
 
-## 사용 기술
-프론트엔드는 **TypeScript**로 작성하였으며 **Ionic** 프레임워크를 사용하였습니다.
+## 使用技術
+フロントエンドは**TypeScript**で作成し、**Ionic**フレームワークを使用しました。
 
-백엔드도 **TypeScript**로 작성하였으며 **NestJS** 프레임워크를 사용한 Restful API로 개발하였습니다. DBMS는 PostgreSQL을 사용했으며 DB 접속 및 TypeScript의 객체와 매핑을 위해 **PrismaORM**이 사용되었습니다.
+バッグエンドも**TypeScript**で作成し、**NestJS**フレームワークを使用したRestful APIとして開発しました。DBMSは**PostgreSQL**を使用し、DB接続に**PrismaORM**が使用されました。
 
-개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
+開発されたアプリケーションは**Docker**コンテナ化してサービスし、以後**AWS EKS**に移転しました。
 
-## 업적
-기존 Excel로 작성하여 메일로 송부하는 비용 청구 방식에서 웹 애플리케이션화 하여 문서 작성 시간을 단축 시켰으며 비용 관리자 측에서도 제출 받은 비용 정보를 회계 관리 프로그램에 임포트 할 수 있도록 csv 파일화 기능을 제공하여 작업 시간을 단축 시켰습니다.
+## 業績
+既存Excelで作成してメールで送付する費用請求プロセスからウェブアプリケーション化して文書作成時間を短縮し、費用管理者側でも提出された費用情報を会計ソフトにインポートできるようCSVファイル化機能を実装して作業時間を短縮しました。
 
 
-{{<figure src="/portfolio/images/expense/login.png" caption="로그인 화면">}}
+{{<figure src="/portfolio/images/expense/login.png" caption="ログイン画面">}}
 
-{{<figure src="/portfolio/images/expense/expenses.png" caption="비용 화면">}}
+{{<figure src="/portfolio/images/expense/expenses.png" caption="費用画面">}}
 
-{{<figure src="/portfolio/images/expense/reports.png" caption="리포트 화면">}}
+{{<figure src="/portfolio/images/expense/reports.png" caption="リポート画面">}}

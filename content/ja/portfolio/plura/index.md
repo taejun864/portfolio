@@ -1,6 +1,6 @@
 ---
-title: Plura 홈페이지
-description: Plura 제품의 일본 랜딩페이지입니다.
+title: Plura ホームページ
+description: Plura 製品の日本総代理店ページです。
 date: "2024-04-03"
 jobDate: 2022/04 - 2022/06
 work: [web application]
@@ -10,20 +10,20 @@ thumbnail: images/plura/main.png
 projectUrl: https://plura.namutech.co.jp
 ---
 
-Plura 제품의 일본 랜딩페이지입니다.
+Plura 製品の日本総代理店ページです。
 
-프로젝트 규모는 2인이며 저는 프론트엔드, 백엔드 개발을 담당하였습니다.
+プロジェクト人員構成は二人で、私はフロントエンド、バッグエンド開発を担当しました。
 
-## 사용 기술
+## 使用技術
 
-프론트엔드는 **TypeScript**로 작성 되었으며 **Angular** 프레임워크가 사용되었습니다.
+フロントエンドは**TypeScript**で作成し、**Angular**フレームワークが使用されました。
 
-백엔드는 **TypeScript**로 작성 되었으며 **NestJS** 프레임워크가 사용되었으며 고객 문의 메일 송부, 문의 정보 저장 기능을 수행합니다. 
+バッグエンドは**TypeScript**で作成し、**NestJS**フレームワークが使用されました。顧客お問い合わせメール送付、お問い合わせ内容保存機能を行います。
 
-DBMS는 **SQLite3**를 사용했습니다.
+DBMSは**SQLite3**を使用しました。
 
-개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
+開発されたアプリケーションは**Docker**コンテナ化してサービスし、以後**AWS EKS**に移転しました。
 
-{{<figure src="/portfolio/images/plura/main2.png" caption="메인 화면의 일부">}}
+{{<figure src="/portfolio/images/plura/main2.png" caption="メイン画面の一部">}}
 
-{{<figure src="/portfolio/images/plura/mail_form.png" caption="문의 메일 폼">}}
+{{<figure src="/portfolio/images/plura/mail_form.png" caption="お問い合わせフォーム">}}

@@ -28,7 +28,7 @@ thumbnail: images/expense/expenses.png
 ## 사용 기술
 프론트엔드는 **TypeScript**로 작성하였으며 **Ionic** 프레임워크를 사용하였습니다.
 
-백엔드도 **TypeScript**로 작성하였으며 **NestJS** 프레임워크를 사용한 Restful API로 개발하였습니다. DBMS는 PostgreSQL을 사용했으며 DB 접속 및 TypeScript의 객체와 매핑을 위해 **PrismaORM**이 사용되었습니다.
+백엔드도 **TypeScript**로 작성하였으며 **NestJS** 프레임워크를 사용한 Restful API로 개발하였습니다. DBMS는 **PostgreSQL**을 사용했으며 DB 접속 및 **TypeScript**의 객체와 매핑을 위해 **PrismaORM**이 사용되었습니다.
 
 개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
 
