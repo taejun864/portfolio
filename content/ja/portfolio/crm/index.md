@@ -6,7 +6,7 @@ jobDate: 2021/11 - 2022/03, 2023/08 - 2024/01
 work: [web application]
 techs: [TypeScript, Go, Angular, Fiber, MySQL, PostgreSQL, GORM]
 designs: []
-thumbnail: portfolio/crm/dashboard.png
+thumbnail: images/crm/dashboard.png
 ---
 
 사내에서 사용하는 CRM 웹 애플리케이션입니다.
@@ -41,8 +41,8 @@ thumbnail: portfolio/crm/dashboard.png
 
 개발 된 애플리케이션은 **AWS EKS**에서 서비스 했습니다.
 
-{{<figure src="login.png" caption="로그인 화면">}}
+{{<figure src="/portfolio/images/crm/login.png" caption="로그인 화면">}}
 
-{{<figure src="dashboard.png" caption="대시보드 화면">}}
+{{<figure src="/portfolio/images/crm/dashboard.png" caption="대시보드 화면">}}
 
-{{<figure src="deals.png" caption="안건 관리 화면">}}
+{{<figure src="/portfolio/images/crm/deals.png" caption="안건 관리 화면">}}

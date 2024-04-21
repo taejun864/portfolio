@@ -6,7 +6,7 @@ jobDate: 2023/01 - 2023/07
 work: [Web Application]
 techs: [TypeScript, Angular, NestJS, TypeORM, MySQL]
 designs: []
-thumbnail: portfolio/skpack/main.png
+thumbnail: images/skpack/main.png
 projectUrl: https://skpack.co.kr
 ---
 
@@ -32,18 +32,18 @@ SKPACK의 홈페이지입니다.
 
 ### 홈페이지 화면
 
-{{<figure src="main2.png" caption="메인 화면 중 일부">}}
+{{<figure src="/portfolio/images/skpack/main2.png" caption="메인 화면 중 일부">}}
 
-{{<figure src="products.png" caption="제품 소개 화면">}}
+{{<figure src="/portfolio/images/skpack/products.png" caption="제품 소개 화면">}}
 
-{{<figure src="media.png" caption="제품 동영상 화면">}}
+{{<figure src="/portfolio/images/skpack/media.png" caption="제품 동영상 화면">}}
 
-{{<figure src="notice.png" caption="공지사항 화면">}}
+{{<figure src="/portfolio/images/skpack/notice.png" caption="공지사항 화면">}}
 
 ### 어드민 화면
 
-{{<figure src="admin_login.png" caption="로그인 화면">}}
+{{<figure src="/portfolio/images/skpack/admin_login.png" caption="로그인 화면">}}
 
-{{<figure src="admin_nav.png" caption="메뉴 화면">}}
+{{<figure src="/portfolio/images/skpack/admin_nav.png" caption="메뉴 화면">}}
 
-{{<figure src="admin_product.png" caption="제품 화면">}}
+{{<figure src="/portfolio/images/skpack/admin_product.png" caption="제품 화면">}}

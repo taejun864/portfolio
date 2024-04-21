@@ -6,7 +6,7 @@ jobDate: 2022/04 - 2022/06
 work: [web application]
 techs: [TypeScript, Angular, NestJS, SQLite3, Docker]
 designs: []
-thumbnail: portfolio/plura/main.png
+thumbnail: images/plura/main.png
 projectUrl: https://plura.namutech.co.jp
 ---
 
@@ -24,6 +24,6 @@ DBMS는 **SQLite3**를 사용했습니다.
 
 개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
 
-{{<figure src="main2.png" caption="메인 화면의 일부">}}
+{{<figure src="/portfolio/images/plura/main2.png" caption="메인 화면의 일부">}}
 
-{{<figure src="mail_form.png" caption="문의 메일 폼">}}
+{{<figure src="/portfolio/images/plura/mail_form.png" caption="문의 메일 폼">}}

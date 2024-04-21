@@ -5,7 +5,7 @@ date: "2024-04-02"
 jobDate: 2022/07 - 2022/12
 work: [web application]
 techs: [TypeScript, Ionic, NestJS, PrismaORM, Docker, PostgreSQL]
-thumbnail: portfolio/expense/expenses.png
+thumbnail: images/expense/expenses.png
 ---
 
 사내에서 사용되는 비용 관리 프로그램입니다.
@@ -36,8 +36,8 @@ thumbnail: portfolio/expense/expenses.png
 기존 Excel로 작성하여 메일로 송부하는 비용 청구 방식에서 웹 애플리케이션화 하여 문서 작성 시간을 단축 시켰으며 비용 관리자 측에서도 제출 받은 비용 정보를 회계 관리 프로그램에 임포트 할 수 있도록 csv 파일화 기능을 제공하여 작업 시간을 단축 시켰습니다.
 
 
-{{<figure src="login.png" caption="로그인 화면">}}
+{{<figure src="/portfolio/images/expense/login.png" caption="로그인 화면">}}
 
-{{<figure src="expenses.png" caption="비용 화면">}}
+{{<figure src="/portfolio/images/expense/expenses.png" caption="비용 화면">}}
 
-{{<figure src="reports.png" caption="리포트 화면">}}
+{{<figure src="/portfolio/images/expense/reports.png" caption="리포트 화면">}}
