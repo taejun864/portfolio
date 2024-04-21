@@ -1,5 +1,5 @@
 baseURL = "https://taejun864.github.io/portfolio/"
-languageCode = "en-us"
+languageCode = "ko-KR"
 title = "Lee Taejun"
 theme = "personal-web"
 googleAnalytics = ""
@@ -7,6 +7,8 @@ enableEmoji=true
 enableRobotsTXT=true
 pygmentsUseClasses=true
 pygmentsCodeFences=true
+defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = true
 
 [params.intro]
   main = "이태준"
@@ -93,3 +95,24 @@ pygmentsCodeFences=true
     disable = false
     enableDNT = true
     simple = false
+
+[languages]
+  [languages.ko]
+    contentDir = 'content/ko'
+    disabled = false
+    languageName = '한국어'
+    weight = 10
+  [languages.ja]
+  contentDir = 'content/ja'
+    disabled = false
+    languageCode = 'ja-JP'
+    languageDirection = ''
+    languageName = '日本語'
+    title = ''
+    weight = 20
+    [languages.ja.params]
+      [languages.ja.params.intro]
+        main = "李泰俊"
+        sub = "私は4年6ヶ月の経歴のITエンジニアです。"
+      [languages.ja.params.main]
+        latestPublishHeader = "最近のプロジェクト"
