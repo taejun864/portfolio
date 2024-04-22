@@ -1,7 +1,17 @@
 <header style="{{ partial "sidebar/style" . | safeCSS }}">
+  {{ if .IsTranslated }}
+  <h4>{{ i18n "translations" }}</h4>
+  <ul>
+    {{ range .Translations }}
+    <li>
+      <a href="/portfolio/{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
     <div class="intro">
       <div class="logo-container">
-        <a href="/portfolio">
+        <a href="{{ relLangURL "" }}">
           <img src='{{ .Site.Params.sidebar.logo | default "images/edna-west.jpg" | absURL }}' alt="Profile {{ .Title }}" class="rounded-logo">
         </a>
       </div>
@@ -38,7 +48,7 @@
     <header>
       <div class="intro">
         <div class="logo-container">
-          <a href="/">
+          <a href="{{ relLangURL "" }}">
             <img src='{{ .Site.Params.sidebar.logo | default "images/edna-west.jpg" | absURL }}' alt="Profile {{ .Title }}" class="rounded-logo">
           </a>
         </div>

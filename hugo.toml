@@ -70,14 +70,14 @@ defaultContentLanguageInSubdir = true
   identifier = "about"
   name = "About"
   title = "About section"
-  url = "/about/"
+  url = "/ko/about/"
   weight = -120
 
 [[menu.main]]
   identifier = "portfolio"
   name = "Portfolio"
   title = "Portfolio"
-  url = "/portfolio/"
+  url = "/ko/portfolio/"
   weight = -110
 
 [sitemap]
@@ -103,12 +103,11 @@ defaultContentLanguageInSubdir = true
     languageName = '한국어'
     weight = 10
   [languages.ja]
-  contentDir = 'content/ja'
+    contentDir = 'content/ja'
     disabled = false
     languageCode = 'ja-JP'
-    languageDirection = ''
     languageName = '日本語'
-    title = ''
+    title = 'Lee Taejun'
     weight = 20
     [languages.ja.params]
       [languages.ja.params.intro]
@@ -116,3 +115,16 @@ defaultContentLanguageInSubdir = true
         sub = "私は4年6ヶ月の経歴のITエンジニアです。"
       [languages.ja.params.main]
         latestPublishHeader = "最近のプロジェクト"
+      [languages.ja.menu]
+        [[languages.ja.menu.main]]
+          identifier = "about"
+          name = "About"
+          title = "About section"
+          url = "/ja/about/"
+          weight = -120
+        [[languages.ja.menu.main]]
+          identifier = "portfolio"
+          name = "Portfolio"
+          title = "Portfolio"
+          url = "/ja/portfolio/"
+          weight = -110
