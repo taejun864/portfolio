@@ -128,3 +128,29 @@ defaultContentLanguageInSubdir = true
           title = "Portfolio"
           url = "/ja/portfolio/"
           weight = -110
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Lee Taejun'
+    weight = 30
+    [languages.en.params]
+      [languages.en.params.intro]
+        main = "LEE TAEJUN"
+        sub = "I'm IT engeneer who have 4 years and 6 months of exprence."
+      [languages.en.params.main]
+        latestPublishHeader = "Recent Project"
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About"
+          title = "About section"
+          url = "/en/about/"
+          weight = -120
+        [[languages.en.menu.main]]
+          identifier = "portfolio"
+          name = "Portfolio"
+          title = "Portfolio"
+          url = "/en/portfolio/"
+          weight = -110
