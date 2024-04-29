@@ -1,6 +1,6 @@
 ---
-title: 사내 비용 관리 프로그램
-description: 사내에서 사용되는 비용 관리 프로그램입니다.
+title: In-house expense system
+description: Expense system used in-house.
 date: "2024-04-02"
 jobDate: 2022/07 - 2022/12
 work: [web application]
@@ -8,36 +8,38 @@ techs: [TypeScript, Ionic, NestJS, PrismaORM, Docker, PostgreSQL]
 thumbnail: images/expense/expenses.png
 ---
 
-사내에서 사용되는 비용 관리 프로그램입니다.
+This is expense system used in-house.
 
-프로젝트 규모는 2명으로 제가 맡은 업무는 프론트엔드, 백엔드 개발이었습니다.
+The project consisted of two people, and I was in charge of front-end and back-end development.
 
-## 애플리케이션
-사용자는 비용 관리자, 사원의 두 종류의 Role이 있습니다.
-  - 사원
+## Application
+There is two user Roles; Cost manager and User.
 
-    - 출장비, 회의비 등 회사에 청구하는 비용을 등록
-    - 월말에 작성 한 비용을 종합하여 리포트를 제출
+  - User
 
-  - 비용 관리자
+    - Register expenses charged to the company, such as business trip expenses and meeting expenses
+    - Submit a report by compiling the expenses prepared at the end of the month
 
-    - 제출 된 리포트를 결재
-    - 리포트 검토 및 재작성 요청
-    - 비용 정보를 일본의 회계 관리 프로그램인 Yayoi에 임포트 할 수 있도록 CSV화
+  - Cost manager
 
-## 사용 기술
-프론트엔드는 **TypeScript**로 작성하였으며 **Ionic** 프레임워크를 사용하였습니다.
+    - Approve the submitted report
+    - Request for report review and rewriting
+    - Convert cost information to CSV so it can be imported into Yayoi, a Japanese accounting management program
 
-백엔드도 **TypeScript**로 작성하였으며 **NestJS** 프레임워크를 사용한 Restful API로 개발하였습니다. DBMS는 **PostgreSQL**을 사용했으며 DB 접속 및 **TypeScript**의 객체와 매핑을 위해 **PrismaORM**이 사용되었습니다.
+## Used skills
+Front-end is written in **TypeScript**, and **Ionic** framework is used.
 
-개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했었고 **AWS EKS**로 이전하였습니다.
+Back-end also written in **TypeScript**, and developed as Restful API used **NestJS** framework. 
+The DBMS used was **PostgreSQL**, and **PrismaORM** was used for DB connection and object mapping in **TypeScript**.
 
-## 업적
-기존 Excel로 작성하여 메일로 송부하는 비용 청구 방식에서 웹 애플리케이션화 하여 문서 작성 시간을 단축 시켰으며 비용 관리자 측에서도 제출 받은 비용 정보를 회계 관리 프로그램에 임포트 할 수 있도록 csv 파일화 기능을 제공하여 작업 시간을 단축 시켰습니다.
+The developed application was serviced as a **Docker** container and was transferred to **AWS EKS**.
+
+## Achievements
+The document creation time has been shortened by converting the existing expense billing method of writing in Excel and sending it by email into a web application, and providing export to csv file function so that the cost manager can import the submitted cost information into the accounting management program, thereby reducing work time.
 
 
-{{<figure src="/portfolio/images/expense/login.png" caption="로그인 화면">}}
+{{<figure src="/portfolio/images/expense/login.png" caption="Login page">}}
 
-{{<figure src="/portfolio/images/expense/expenses.png" caption="비용 화면">}}
+{{<figure src="/portfolio/images/expense/expenses.png" caption="Expenses page">}}
 
-{{<figure src="/portfolio/images/expense/reports.png" caption="리포트 화면">}}
+{{<figure src="/portfolio/images/expense/reports.png" caption="Reports page">}}
