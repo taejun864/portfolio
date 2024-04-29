@@ -1,7 +1,7 @@
 ---
 title: Plura 홈페이지
 description: Plura 제품의 일본 랜딩페이지입니다.
-date: "2024-04-03"
+date: "2024-04-02"
 jobDate: 2022/04 - 2022/06
 work: [web application]
 techs: [TypeScript, Angular, NestJS, SQLite3, Docker]

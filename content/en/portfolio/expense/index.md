@@ -1,7 +1,7 @@
 ---
 title: In-house expense system
 description: Expense system used in-house.
-date: "2024-04-02"
+date: "2024-04-03"
 jobDate: 2022/07 - 2022/12
 work: [web application]
 techs: [TypeScript, Ionic, NestJS, PrismaORM, Docker, PostgreSQL]

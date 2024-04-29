@@ -1,7 +1,7 @@
 ---
 title: 社内費用管理プログラム
 description: 社内で使用する費用管理プログラムです。
-date: "2024-04-02"
+date: "2024-04-03"
 jobDate: 2022/07 - 2022/12
 work: [web application]
 techs: [TypeScript, Ionic, NestJS, PrismaORM, Docker, PostgreSQL]

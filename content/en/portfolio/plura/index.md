@@ -1,7 +1,7 @@
 ---
 title: Plura homepage
 description: Japan landing page for Plura pruduct.
-date: "2024-04-03"
+date: "2024-04-02"
 jobDate: 2022/04 - 2022/06
 work: [web application]
 techs: [TypeScript, Angular, NestJS, SQLite3, Docker]
