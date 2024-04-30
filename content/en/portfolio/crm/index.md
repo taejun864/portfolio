@@ -1,6 +1,6 @@
 ---
-title: 사내 CRM
-description: 사내에서 사용하는 CRM 웹 애플리케이션입니다.
+title: In-house CRM
+description: This is CRM web application for in-house.
 date: "2024-04-05"
 jobDate: 2021/11 - 2022/03, 2023/08 - 2024/01
 work: [web application]
@@ -9,40 +9,41 @@ designs: []
 thumbnail: images/crm/dashboard.png
 ---
 
-사내에서 사용하는 CRM 웹 애플리케이션입니다.
+This is CRM web application for in-house.
 
-2022/03 개발을 완료하여 사용 하던 중 사용자의 의견을 받아 2023/08 부터 대규모로 수정을 진행 한 프로젝트입니다.
+This project was completed in development in 2022/03 and major modifications starting from 2023/08 for reflect user feedback.
 
-# 2021 프로젝트
-프로젝트 규모는 2명으로 저는 프론트엔드, 백엔드 개발을 담당하였습니다.
+# 2021 project
+The project consisted of two people, and I was in charge of front-end and back-end development.
 
-## 애플리케이션
-사용자(영업사원)가 안건 정보 및 안건에 관한 영업 문서를 등록, 관리하며 년, 월 매출 정보를 차트로 시각화 하는 것이 주 기능입니다.
+## Application
+The main function is for users (salespeople) to register and manage case information and sales documents related to the case, and to visualize annual and monthly sales information in charts.
 
-## 사용 기술
-프론트엔드는 **TypeScript**로 작성하였으며, **Angular** 프레임워크를 사용하였습니다.
+## Used skills
+Front-end is written in **TypeScript**, and **Angular** framework is used.
 
-백엔드는 **Go**로 작성하였으며, **Fiber** 프레임워크를 사용 한 Restful API로 개발되었습니다. **MySQL** DBMS와 **Go** 객체의 매핑을 위해 **GORM**이 사용되었습니다.
+Back-end is written in **Go**, and developed as Restful API used **Fiber** framework. 
+The DBMS used was **MySQL**, and **GORM** was used for DB connection and object mapping in **Go**.
 
-개발 된 애플리케이션은 **Docker** 컨테이너화 하여 서비스 했습니다.
+The developed application was serviced as a **Docker** container.
 
 ---------
 
-# 2023 프로젝트
-프로젝트 규모는 6명으로 2명이 프론트엔드, 2명이 백엔드를 담당하였으며 저는 프로젝트 리더를 맡아 전체적인 프로젝트 진행을 담당하였습니다.
+# 2023 project
+The project consisted of six people, 2 people was in charge of frone-end 2 people was in charge of back-end, and I was in charge of overall proejct progress as the project leader.
 
-## 수정 사항
-사용자의 의견을 받아 UI가 수정 되었으며, 안건 및 문서 등록의 프로세스가 수정 되었습니다. 수정 과정에서 퍼포먼스 향상을 위해 **GORM**을 이용해 **MySQL**과 **Go**의 객체를 매핑하는 방식에서 SQL문을 직접 사용하는 방식으로 수정하였습니다. 또한 JSON 형식 지원 등을 고려하여 DBMS를 **MySQL**에서 **PostgreSQL**로 변경하였습니다.
+## Fixes
+The UI has been modified for reflect user feedback, and the process for case and document registration has been modified. In order to improve performance during the modification process, we changed from mapping objects in **MySQL** and **Go** using **GORM** to using SQL statements directly. Additionally, considering JSON format support, etc., the DBMS was changed from **MySQL** to **PostgreSQL**.
 
-## 사용 기술
-프론트엔드는 **TypeScript**로 작성 하였으며, **Angular** 프레임워크를 사용하였습니다.
+## Used skills
+Front-end is written in **TypeScript**, and **Angular** framework is used.
 
-백엔드는 **Go**로 작성 하였으며, **Fiber** 프레임워크를 사용 한 Restful API입니다. DBMS는 기존 **MySQL**의 데이터를 **PostgreSQL**로 마이그레이션 하여 사용하였습니다.
+Back-end is written in **Go**, and developed as Restful API used **fiber** framework. The DBMS used was **PostgreSQL**, migrating the existing **MySQL** data to **PostgreSQL**.
 
-개발 된 애플리케이션은 **AWS EKS**에서 서비스 했습니다.
+The developed application was serviced in **AWS EKS**.
 
-{{<figure src="/portfolio/images/crm/login.png" caption="로그인 화면">}}
+{{<figure src="/portfolio/images/crm/login.png" caption="Login page">}}
 
-{{<figure src="/portfolio/images/crm/dashboard.png" caption="대시보드 화면">}}
+{{<figure src="/portfolio/images/crm/dashboard.png" caption="Dashboard page">}}
 
-{{<figure src="/portfolio/images/crm/deals.png" caption="안건 관리 화면">}}
+{{<figure src="/portfolio/images/crm/deals.png" caption="Case management page">}}
