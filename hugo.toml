@@ -138,7 +138,7 @@ defaultContentLanguageInSubdir = true
     [languages.en.params]
       [languages.en.params.intro]
         main = "LEE TAEJUN"
-        sub = "I'm IT engeneer who have 4 years and 6 months of exprence."
+        sub = "I'm IT engineer who have 4 years and 6 months of exprence."
       [languages.en.params.main]
         latestPublishHeader = "Recent Project"
       [languages.en.menu]
